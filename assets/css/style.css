@@ -1314,7 +1314,7 @@ custom css
 }
 
 .myApplications{
-  background-image:url(/assets/img/pricolGroupEmp.png);
+  background-image:url("../img/pricolGroupEmp.png");
   background-size: cover;
 }
 
