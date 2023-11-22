@@ -1378,7 +1378,7 @@ custom css
 
 
 
-
+/* myCalendar   */
 
 .myCalendar .background-card-light{
   background-color: var(--green-color);
@@ -1499,9 +1499,40 @@ header .calendar-navigation span:hover {
   background: #e4e1e1;
 }
 
+/* end side  */
+
+
+@media (min-width:992px) {
+  .end-side{
+    position: relative;
+    height: 100vh;
+    display: block;
+    padding: 20px ;
+    margin-top: -20px;
+    margin-right: -50px;
+  }
+}
 
 .end-side{
-  position: relative;
-  height: 100vh;
-  display: block;
+  padding: 20px;
 }
+
+
+
+/* quick links  */
+
+.quick-links h5{
+  color : var(--primary-color)
+}
+
+
+/* welcome card  */
+
+
+.name_card{
+  background-image:linear-gradient(rgba(0, 114, 187, 0.70), rgba(0, 114, 187, 0.70)),url("../img/pricolGroupEmp.png");
+  background-size: cover;
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 85% 50%, 75% 100%, 0% 100%);
+}
+
