@@ -1532,7 +1532,9 @@ header .calendar-navigation span:hover {
 
 
 .name_card{
-  background-image:linear-gradient(rgba(0, 114, 187, 0.70), rgba(0, 114, 187, 0.70)),url("../img/pricolGroupEmp.png");
+  /* background-image:linear-gradient(rgba(0, 114, 187, 0.70), rgba(0, 114, 187, 0.70)),url("../img/pricolGroupEmp.png"); */
+  background-color: var(--primary-color);
+  opacity: 1;
   background-size: cover;
   -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 75% 0%, 85% 50%, 75% 100%, 0% 100%);
